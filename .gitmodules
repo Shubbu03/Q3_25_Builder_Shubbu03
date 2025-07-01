@@ -1,0 +1,6 @@
+[submodule "prereqs/prereq-1-ts"]
+	path = prereqs/prereq-1-ts
+	url = https://github.com/Shubbu03/turbin3-prereq-1
+[submodule "prereqs/prereq-2-rs"]
+	path = prereqs/prereq-2-rs
+	url = https://github.com/Shubbu03/turbin3-prereq-2
