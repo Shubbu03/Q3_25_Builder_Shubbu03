@@ -12,6 +12,8 @@ pub mod vault_practice {
     use super::*;
 
     pub fn initialize(ctx: Context<Initialize>) -> Result<()> {
+        ctx.accounts.vault_state.vault_bump = ctx.bumps.vault;
+        ctx.accounts.vault_state.state_bump = ctx.bumps.vault_state;
         msg!("Greetings from: {:?}", ctx.program_id);
         Ok(())
     }
