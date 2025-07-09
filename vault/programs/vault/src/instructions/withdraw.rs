@@ -20,10 +20,10 @@ pub struct Withdraw<'info> {
     pub vault: SystemAccount<'info>,
     #[account(
         seeds = [
-            b"vault",
+            b"state",
             signer.key().as_ref()
         ],
-        bump = vault_state.vault_bump
+        bump = vault_state.state_bump
     )]
     pub vault_state: Account<'info, VaultState>,
     pub system_program: Program<'info, System>,

@@ -13,14 +13,14 @@ pub struct Deposit<'info> {
         mut,
         seeds = [
             b"vault",
-            vault.key().as_ref()
+            vault_state.key().as_ref()
         ],
         bump = vault_state.vault_bump
     )]
     pub vault: SystemAccount<'info>,
     #[account(
         seeds = [b"state", signer.key().as_ref()],
-        bump = vault_state.vault_bump
+        bump = vault_state.state_bump
     )]
     pub vault_state: Account<'info, VaultState>,
     pub system_program: Program<'info, System>,
