@@ -64,7 +64,7 @@ impl<'info> Refund<'info> {
         };
 
         let cpi_context = CpiContext::new_with_signer(
-            self.system_program.to_account_info(),
+            self.token_program.to_account_info(),
             account,
             &signer_seeds,
         );

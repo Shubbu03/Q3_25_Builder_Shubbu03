@@ -42,7 +42,7 @@ pub struct Take<'info> {
     #[account(
         mut,
         associated_token::mint = mint_b,
-        associated_token::authority = maker,
+        associated_token::authority = taker,
         associated_token::token_program = token_program,
     )]
     pub taker_ata_b: InterfaceAccount<'info, TokenAccount>,
@@ -54,6 +54,7 @@ pub struct Take<'info> {
     )]
     pub escrow: Account<'info, Escrow>,
     #[account(
+        mut,
         associated_token::mint = mint_a,
         associated_token::authority = escrow,
         associated_token::token_program = token_program
@@ -90,19 +91,19 @@ impl<'info> Take<'info> {
         ]];
 
         let account = TransferChecked {
-            from: self.taker_ata_b.to_account_info(),
-            mint: self.mint_b.to_account_info(),
-            to: self.maker_ata_b.to_account_info(),
-            authority: self.taker.to_account_info(),
+            from: self.vault.to_account_info(),
+            mint: self.mint_a.to_account_info(),
+            to: self.taker_ata_a.to_account_info(),
+            authority: self.escrow.to_account_info(),
         };
 
         let cpi_context = CpiContext::new_with_signer(
-            self.system_program.to_account_info(),
+            self.token_program.to_account_info(),
             account,
             &signer_seeds,
         );
 
-        transfer_checked(cpi_context, self.escrow.recieve, self.mint_b.decimals)?;
+        transfer_checked(cpi_context, self.vault.amount, self.mint_a.decimals)?;
 
         let accounts = CloseAccount {
             account: self.vault.to_account_info(),
