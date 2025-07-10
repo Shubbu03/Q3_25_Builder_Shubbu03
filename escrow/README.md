@@ -1,6 +1,6 @@
-# Solana Escrow Smart Contract
+# Solana Escrow Program
 
-A secure, decentralized escrow smart contract built on Solana using the Anchor framework. This program enables trustless token swaps between two parties by holding tokens in escrow until both parties fulfill their obligations.
+A secure, decentralized escrow program built on Solana using the Anchor framework. This program enables trustless token swaps between two parties by holding tokens in escrow until both parties fulfill their obligations.
 
 ## 🎯 Overview
 
