@@ -8,9 +8,6 @@ import { randomBytes } from "crypto";
 import { confirmTransaction } from "@solana-developers/helpers";
 import { expect } from "chai";
 
-
-// const programId = new PublicKey("GgiwFFjRLmrZvATt4Az1MKnegFu1nVxHEVgfWAwXZwaC");
-
 describe("Make Instruction:", () => {
   anchor.setProvider(anchor.AnchorProvider.env());
   const provider = anchor.getProvider();
