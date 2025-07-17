@@ -23,6 +23,11 @@ This repository contains several Solana blockchain development projects and exer
   - Features deposit, withdraw, and close operations with proper access controls
   - Showcases best practices for handling user funds and permissions
 
+• **Staking Protocol** (`/staking/`)
+  - Decentralized staking system for token rewards and yield generation
+  - Implements stake, unstake, and claim rewards functionality with configurable parameters
+  - Features user account management, stake tracking, and automated reward distribution
+
 ### Learning & Development Resources
 
 • **Prerequisites** (`/prereqs/`)
