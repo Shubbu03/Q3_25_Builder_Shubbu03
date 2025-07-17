@@ -5,7 +5,10 @@
     "lint": "prettier */*.js \"*/**/*{.js,.ts}\" --check"
   },
   "dependencies": {
-    "@coral-xyz/anchor": "^0.31.1"
+    "@coral-xyz/anchor": "^0.31.1",
+    "@solana/spl-token": "^0.4.6",
+    "@metaplex-foundation/mpl-token-metadata": "^2.13.0",
+    "@metaplex-foundation/js": "^0.19.4"
   },
   "devDependencies": {
     "chai": "^4.3.4",
