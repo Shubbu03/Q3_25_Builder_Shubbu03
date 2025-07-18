@@ -1,4 +1,4 @@
-#![allow(unexpected_cfgs)]
+#![allow(unexpected_cfgs,deprecated)]
 pub mod error;
 pub mod instructions;
 pub mod state;
