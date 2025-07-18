@@ -30,7 +30,6 @@ pub struct Unstake<'info> {
         seeds = [b"metadata", metadata_program.key().as_ref(), mint.key().as_ref(), b"edition"],
         seeds::program = metadata_program.key(),
         bump,
-        
     )]
     pub edition: Account<'info, MasterEditionAccount>, // used to determine the non fungibility of an NFT
 
