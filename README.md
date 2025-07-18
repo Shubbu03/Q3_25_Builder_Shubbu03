@@ -23,7 +23,7 @@ This repository contains several Solana blockchain development projects and exer
   - Features deposit, withdraw, and close operations with proper access controls
   - Showcases best practices for handling user funds and permissions
 
-• **Staking Protocol** (`/staking/`)
+• **NFT Staking Protocol** (`/staking/`)
   - Decentralized staking system for token rewards and yield generation
   - Implements stake, unstake, and claim rewards functionality with configurable parameters
   - Features user account management, stake tracking, and automated reward distribution
@@ -49,3 +49,9 @@ This repository contains several Solana blockchain development projects and exer
 - **Package Management**: Cargo (Rust), Yarn/NPM (TypeScript)
 
 ---
+
+## 📬 Contact
+
+**You can reach me here**  
+✉️ [thatcoderguyshubham@gmail.com](mailto:thatcoderguyshubham@gmail.com)  
+𝕏  [@blackbaloon03](https://x.com/blackbaloon03)
