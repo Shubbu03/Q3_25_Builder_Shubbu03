@@ -28,6 +28,11 @@ This repository contains several Solana blockchain development projects and exer
   - Implements stake, unstake, and claim rewards functionality with configurable parameters
   - Features user account management, stake tracking, and automated reward distribution
 
+• **NFT Marketplace** (`/marketplace/`)
+  - Decentralized NFT trading platform for verified collection assets
+  - Implements listing, purchasing, and delisting functionality with configurable marketplace fees
+  - Features secure vault system, automatic fee distribution, and collection verification
+
 ### Learning & Development Resources
 
 • **Prerequisites** (`/prereqs/`)
