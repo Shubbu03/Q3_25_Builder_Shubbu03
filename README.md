@@ -33,6 +33,11 @@ This repository contains several Solana blockchain development projects and exer
   - Implements listing, purchasing, and delisting functionality with configurable marketplace fees
   - Features secure vault system, automatic fee distribution, and collection verification
 
+• **Dice Betting Game** (`/dice/`)
+  - Provably fair dice betting protocol with transparent randomness generation
+  - Implements bet placement, resolution, and refund mechanisms using Ed25519 signatures
+  - Features house edge system, timeout protection, and verifiable randomness for fair gameplay
+
 ### Learning & Development Resources
 
 • **Prerequisites** (`/prereqs/`)
