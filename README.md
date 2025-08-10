@@ -2,6 +2,17 @@
 
 Welcome to my **Turbin3 Builder Cohort** repository! This serves as a centralized hub for managing and sharing class assignments, projects, and resources related to the program.
 
+---
+
+## 📌 Capstone Project
+
+- **Capstone Repository**: [Bondr](https://github.com/Shubbu03/bondr)
+- **User Stories**: [View Document](https://github.com/solana-turbin3/Q3_25_Builder_Shubbu03/blob/main/docs/Bondr%20-%20User%20Stories.pdf)
+- **Architecture Diagram**: [View Document](https://github.com/solana-turbin3/Q3_25_Builder_Shubbu03/blob/main/docs/Bondr%20-%20Arch%20Diagram.pdf)
+
+
+---
+
 ## 📁 Projects Overview
 
 This repository contains several Solana blockchain development projects and exercises:
