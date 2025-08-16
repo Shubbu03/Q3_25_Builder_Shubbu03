@@ -49,6 +49,11 @@ This repository contains several Solana blockchain development projects and exer
   - Implements bet placement, resolution, and refund mechanisms using Ed25519 signatures
   - Features house edge system, timeout protection, and verifiable randomness for fair gameplay
 
+• **Quadratic Voting** (`/quadratic_voting/`)
+  - Decentralized autonomous organization with quadratic voting mechanics for democratic governance
+  - Implements DAO creation, proposal management, and token-based voting with quadratic calculation
+  - Features sybil resistance, immutable vote records, and reduced influence of large token holders
+
 ### Learning & Development Resources
 
 • **Prerequisites** (`/prereqs/`)
